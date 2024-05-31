@@ -5,13 +5,14 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(244, 244, 244);
 }
 header {
   background-image: url("/unread.img/4b500d1101336e8a3f6be8fb4521c6c7.jpeg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 1200px;
+  height: 880px;
   background-blend-mode: darken;
   background-color: rgb(0, 0, 0, 0.4);
 }
@@ -93,7 +94,7 @@ header {
   justify-content: center;
   gap: 61px;
 }
-.hero-sec img {
+.hero-sec-img {
   width: 446px;
   height: 446px;
   border-radius: 25px;
@@ -118,4 +119,181 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 20px;
+}
+.enkhmunkh-zurg {
+  width: 42px;
+  height: 42px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  padding: 2px;
+}
+.enkhmunkh {
+  display: flex;
+  gap: 1%;
+}
+.enkhmunkh-text {
+  color: white;
+}
+.enkhmunkh-name {
+  opacity: 0.5;
+}
+.slide-title {
+  color: white;
+  position: absolute;
+  left: 25%;
+  top: 55%;
+  font-size: large;
+  font-weight: bold;
+}
+.slider-con {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: -200px;
+}
+
+.slider-text {
+  position: absolute;
+  top: 310px;
+  font-size: medium;
+  margin: 10px 30px;
+}
+.slider-button {
+  position: absolute;
+  top: 400px;
+  margin: 0 30px;
+  border: 5px solid #0078f6;
+  border-radius: 20px;
+  padding: 1px 11px 1px 11px;
+  background-color: #0078f6;
+  font-size: small;
+}
+.slider {
+  width: 293.797px;
+  height: 433.914px;
+  border-radius: 10px;
+  background-image: url("./unread.img/f214ecbbae9edfd49dbab990e70348c6.png");
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  background-color: rgb(0, 0, 0, 0.4);
+  color: white;
+  position: relative;
+}
+.slider:hover {
+  transform: scale(1.05);
+}
+.slider {
+  transition-duration: 300ms;
+}
+.slider2 {
+  width: 293.797px;
+  height: 433.914px;
+  border-radius: 10px;
+  background-image: url("./unread.img/6dc13475528502b25e38397feb99c727.png");
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  background-color: rgb(0, 0, 0, 0.4);
+  color: white;
+  position: relative;
+}
+.slider2:hover {
+  transform: scale(1.05);
+}
+.slider2 {
+  transition-duration: 300ms;
+}
+.slider3 {
+  width: 293.797px;
+  height: 433.914px;
+  border-radius: 10px;
+  background-image: url(".//unread.img/06c81a70abc3c6e36ebe81f34829ed10.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  background-color: rgb(0, 0, 0, 0.4);
+  color: white;
+  position: relative;
+}
+.slider3:hover {
+  transform: scale(1.05);
+}
+.slider3 {
+  transition-duration: 300ms;
+}
+.slider4 {
+  width: 293.797px;
+  height: 433.914px;
+  border-radius: 10px;
+  background-image: url("./unread.img/6c7379f6a279651cc886c07f98086bbc.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  background-color: rgb(0, 0, 0, 0.4);
+  color: white;
+  position: relative;
+}
+.slider4:hover {
+  transform: scale(1.05);
+}
+.slider4 {
+  transition-duration: 300ms;
+}
+.slider5 {
+  width: 293.797px;
+  height: 433.914px;
+  border-radius: 10px;
+  background-image: url("./unread.img/03967d2f0f1b319e42ac4c8c2de6b0b3.png");
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  background-color: rgb(0, 0, 0, 0.4);
+  color: white;
+  position: relative;
+}
+.slider5:hover {
+  transform: scale(1.05);
+}
+.slider5 {
+  transition-duration: 300ms;
+}
+.thisweek {
+  margin-left: 25%;
+  margin-top: 5%;
+}
+.enkhmunkh {
+  display: flex;
+  gap: 1%;
+}
+.enkhmunkh-zurg {
+  width: 42px;
+  height: 42px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  padding: 2px;
+}
+
+.enkhmunkh-name2 {
+  color: black;
+}
+
+.enkhmunkh-text2 {
+  opacity: 0.5;
+}
+.thisweek-text {
+  height: 183px;
+  width: 739px;
+  background-color: white;
+  border-radius: 0 30px 30px 30px;
+}
+.thisweek-head {
+  color: #0078f6;
+  font-weight: bold;
+  margin-left: 8%;
+}
+.thisweek {
+  font-weight: bolder;
+  font-size: larger;
 }
