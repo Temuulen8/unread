@@ -484,3 +484,140 @@ header {
   flex-direction: column;
   justify-content: center;
 }
+footer {
+  background-color: black;
+  padding-top: 100px;
+}
+.block1 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.btn-con {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.btn h1 {
+  color: #fff;
+  font-weight: 400;
+  opacity: 0.3;
+  font-size: small;
+  margin-left: 5%;
+  width: 120%;
+}
+.btn p {
+  color: #fff;
+  margin-left: 5%;
+}
+.btn {
+  width: 323px;
+  height: 90px;
+  border-radius: 17px;
+  background: linear-gradient(
+    45deg,
+    rgba(20, 20, 20, 0.9),
+    rgba(200, 200, 200, 0.2),
+    rgba(20, 20, 20, 0.9)
+  );
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 15%;
+}
+.btn1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+.right {
+  height: 36px;
+  width: 36px;
+  background-color: #0078f6;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right-angle {
+  width: 19px;
+  height: 19px;
+  color: white;
+}
+.app img {
+  width: 144px;
+  height: 45.5px;
+}
+.main-nav {
+  color: white;
+  display: flex;
+}
+.pre-dot::before {
+  content: "•";
+  margin-left: 8px;
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+.copyright {
+  font-size: small;
+  opacity: 0.5;
+  color: white;
+  width: 500px;
+}
+.gray {
+  color: white;
+  font-size: small;
+  opacity: 0.5;
+}
+.uk-width-1-2 {
+  color: #0078f6;
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.address {
+  color: white;
+  opacity: 0.5;
+  font-size: small;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.uk-width-1-1 {
+  color: #0078f6;
+  font-size: large;
+}
+.unread-link {
+  color: white;
+  font-size: small;
+}
+.column {
+  display: flex;
+  gap: 60px;
+}
+.footer-con {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.block2-con {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.apps {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin-top: 50px;
+}
+.apps a i {
+  width: 32px;
+  height: 32px;
+}
+.fa-square-facebook {
+  width: 32px;
+  height: 32px;
+}
